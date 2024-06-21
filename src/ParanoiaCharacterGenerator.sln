@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParanoiaCharacterGenerator", "ParanoiaCharacterGenerator\ParanoiaCharacterGenerator.csproj", "{C746DAB1-47DB-4DA0-AB2C-BD9665EA6D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParanoiaCharacterGenerator.Tests", "ParanoiaCharacterGenerator.Tests\ParanoiaCharacterGenerator.Tests.csproj", "{545EDD0E-F5F2-4518-9D38-E3FAE8D01519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C746DAB1-47DB-4DA0-AB2C-BD9665EA6D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C746DAB1-47DB-4DA0-AB2C-BD9665EA6D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C746DAB1-47DB-4DA0-AB2C-BD9665EA6D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C746DAB1-47DB-4DA0-AB2C-BD9665EA6D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{545EDD0E-F5F2-4518-9D38-E3FAE8D01519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545EDD0E-F5F2-4518-9D38-E3FAE8D01519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545EDD0E-F5F2-4518-9D38-E3FAE8D01519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545EDD0E-F5F2-4518-9D38-E3FAE8D01519}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

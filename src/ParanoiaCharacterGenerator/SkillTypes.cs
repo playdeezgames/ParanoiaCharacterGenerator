@@ -1,0 +1,19 @@
+public enum SkillTypes
+{
+    AlphaComplex,
+    Bureaucracy,
+    Psychology,
+    Science,
+    Bluff,
+    Charm,
+    Intimidate,
+    Stealth,
+    Demolition,
+    Engineer,
+    Operate,
+    Program,
+    Athletics,
+    Guns,
+    Melee,
+    Throw
+}
