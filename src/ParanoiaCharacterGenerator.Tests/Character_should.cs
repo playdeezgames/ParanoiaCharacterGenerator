@@ -4,10 +4,11 @@ namespace ParanoiaCharacterGenerator.Tests;
 
 public class Character_should
 {
-    [Fact]
-    public void default_skill_to_zero()
+    [Theory]
+    [InlineData(SkillTypes.AlphaComplex)]
+    public void default_skill_to_zero(SkillTypes skillType)
     {
         ICharacter subject = new Character();
-        subject.GetSkill(SkillTypes.AlphaComplex).ShouldBe(0);
+        subject.GetSkill(skillType).ShouldBe(0);
     }
 }
